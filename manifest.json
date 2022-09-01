@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Creating my first extension",
+  "version": "0.1",
+  "description": "Build an Extension!",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
